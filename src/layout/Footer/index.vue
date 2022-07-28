@@ -1,6 +1,6 @@
 <template>
 	<div class="footer flx-center">
-		<a href="http://www.spicyboy.cn/" target="_blank"> 2022 © Geeker-Admin By Geeker Technology. </a>
+		<a href="https://github.com/geekibli" target="_blank"> 2022 © 多变科技 By Geek IBLi. </a>
 	</div>
 </template>
 

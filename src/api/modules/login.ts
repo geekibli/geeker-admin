@@ -21,6 +21,8 @@ export const getAuthButtons = () => {
 };
 
 // * 获取菜单列表
-export const getMenuList = () => {
-	return http.get<Menu.MenuOptions[]>(PORT1 + `/menu/list`);
+export const getMenuList = async () => {
+	let muList = await http.get<Menu.MenuOptions[]>(PORT1 + `/menu/list`);
+	console.log("mulist ..." + JSON.stringify(muList));
+	return muList;
 };
